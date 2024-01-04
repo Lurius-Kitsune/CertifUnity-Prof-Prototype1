@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private float turnSpeed = 100.0f;
     private float horizontalInput;
     private float verticalInput;
+    public bool player2;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,8 +18,18 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontalInput = Input.GetAxis("Horizontal");
-        verticalInput = Input.GetAxis("Vertical");
+        switch (player2)
+        {
+            case true:
+                horizontalInput = Input.GetAxis("Horizontal2");
+                verticalInput = Input.GetAxis("Vertical2");
+                break;
+
+            case false:
+                horizontalInput = Input.GetAxis("Horizontal");
+                verticalInput = Input.GetAxis("Vertical");
+            break;
+        }
 
         // Mives the car forward based on vertical Input
         transform.Translate(Vector3.forward * Time.deltaTime * this.SpeedOfVehicle * verticalInput);

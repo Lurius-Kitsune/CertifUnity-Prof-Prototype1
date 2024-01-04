@@ -7,13 +7,13 @@ public class FollowPlayer : MonoBehaviour
     public GameObject player;
     public GameObject backCam;
     private bool cameraToogle;
-    public Vector3 offset = new Vector3(0, 5, -7);
+    public Vector3 offset;
     private Vector3 backCamPos;
     // Start is called before the first frame update
     void Start()
     {
-        offset = transform.position;
-        backCamPos = backCam.transform.position;
+        this.offset = transform.position - player.transform.position;
+        this.backCamPos = backCam.transform.position;
     }
 
     // Update is called once per frame
