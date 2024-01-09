@@ -40,16 +40,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 514
-    width: 1069
-    height: 473
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+    y: 488
+    width: 1068
+    height: 499
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 17}
+  - {fileID: 13}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -69,7 +70,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1069
+    width: 1068
     height: 987
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
@@ -150,7 +151,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 114
+  controlID: 48
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,13 +190,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1069
-    height: 514
+    width: 1068
+    height: 488
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 17}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &9
@@ -215,14 +216,14 @@ MonoBehaviour:
   - {fileID: 12}
   m_Position:
     serializedVersion: 2
-    x: 1069
+    x: 1068
     y: 0
-    width: 386
+    width: 387
     height: 987
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 74
+  controlID: 49
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +234,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: Window
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -242,14 +243,14 @@ MonoBehaviour:
     y: 0
     width: 465
     height: 987
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
+  - {fileID: 15}
   - {fileID: 14}
-  - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -267,13 +268,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 386
-    height: 434
+    width: 387
+    height: 435
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 18}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &12
@@ -292,17 +293,54 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 434
-    width: 386
-    height: 553
+    y: 435
+    width: 387
+    height: 552
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: -8166618308981325432, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1920
+    y: 587
+    width: 1067
+    height: 452
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: -59492
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -322,7 +360,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -465
+    x: 1455
     y: 73
     width: 464
     height: 966
@@ -341,9 +379,9 @@ MonoBehaviour:
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 1
-  repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -428,9 +466,9 @@ MonoBehaviour:
     localBranches: []
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 1
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
     currentBranch: main
@@ -438,49 +476,11 @@ MonoBehaviour:
     treeChanges:
       assets:
         keys:
-        - 00000000000000001000000000000000
-        - a9e87e3f172842a458d393fe316bbc9b
-        - 84729eeda748340d0955715b6a50b370
+        - 0000000000000000b000000000000000
         values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
+        - path: ProjectSettings\EditorBuildSettings.asset
+          label: EditorBuildSettings.asset
           level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes\Prototype 1.unity
-          label: Prototype 1.unity
-          level: 2
           isFolder: 0
           isContainer: 0
           isCollapsed: 0
@@ -490,21 +490,25 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Scenes\Prototype 1.unity
-            fullPath: D:\Unity\Prototype1\Assets\Scenes\Prototype 1.unity
-            projectPath: Assets\Scenes\Prototype 1.unity
+            path: ProjectSettings\EditorBuildSettings.asset
+            fullPath: D:\Unity\Prototype1\ProjectSettings\EditorBuildSettings.asset
+            projectPath: ProjectSettings\EditorBuildSettings.asset
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
       folders:
         keys:
-        - Assets
-        - Assets\Scenes
+        - ProjectSettings
+        - ProjectSettings\Packages
+        - ProjectSettings\Packages\com.unity.connect.share
         - UserSettings
         - UserSettings\Layouts
+        - WebGL Builds
+        - WebGL Builds\Build
+        - WebGL Builds\TemplateData
         values:
-        - path: Assets
-          label: Assets
+        - path: ProjectSettings
+          label: ProjectSettings
           level: 0
           isFolder: 1
           isContainer: 0
@@ -521,9 +525,27 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
+        - path: ProjectSettings\Packages
+          label: Packages
           level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings\Packages\com.unity.connect.share
+          label: com.unity.connect.share
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -575,6 +597,60 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: WebGL Builds
+          label: WebGL Builds
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: WebGL Builds\Build
+          label: Build
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: WebGL Builds\TemplateData
+          label: TemplateData
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -603,8 +679,44 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets
-        label: Assets
+      - path: connectwebgl.zip
+        label: connectwebgl.zip
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: connectwebgl.zip
+          fullPath: D:\Unity\Prototype1\connectwebgl.zip
+          projectPath: connectwebgl.zip
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: debug.log
+        label: debug.log
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: debug.log
+          fullPath: D:\Unity\Prototype1\debug.log
+          projectPath: debug.log
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings
+        label: ProjectSettings
         level: 0
         isFolder: 1
         isContainer: 0
@@ -621,8 +733,26 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scenes
-        label: Scenes
+      - path: ProjectSettings\EditorBuildSettings.asset
+        label: EditorBuildSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: D:\Unity\Prototype1\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: ProjectSettings\Packages
+        label: Packages
         level: 1
         isFolder: 1
         isContainer: 0
@@ -639,9 +769,27 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scenes\Prototype 1.unity
-        label: Prototype 1.unity
+      - path: ProjectSettings\Packages\com.unity.connect.share
+        label: com.unity.connect.share
         level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings\Packages\com.unity.connect.share\Settings.json
+        label: Settings.json
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -651,12 +799,12 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scenes\Prototype 1.unity
-          fullPath: D:\Unity\Prototype1\Assets\Scenes\Prototype 1.unity
-          projectPath: Assets\Scenes\Prototype 1.unity
+          path: ProjectSettings\Packages\com.unity.connect.share\Settings.json
+          fullPath: D:\Unity\Prototype1\ProjectSettings\Packages\com.unity.connect.share\Settings.json
+          projectPath: ProjectSettings\Packages\com.unity.connect.share\Settings.json
           originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
+          indexStatus: 1
+          workTreeStatus: 1
       - path: UserSettings
         label: UserSettings
         level: 0
@@ -711,6 +859,438 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
+      - path: WebGL Builds
+        label: WebGL Builds
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: WebGL Builds\Build
+        label: Build
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: WebGL Builds\Build\WebGL Builds.data.gz
+        label: WebGL Builds.data.gz
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\Build\WebGL Builds.data.gz
+          fullPath: D:\Unity\Prototype1\WebGL Builds\Build\WebGL Builds.data.gz
+          projectPath: WebGL Builds\Build\WebGL Builds.data.gz
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\Build\WebGL Builds.framework.js.gz
+        label: WebGL Builds.framework.js.gz
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\Build\WebGL Builds.framework.js.gz
+          fullPath: D:\Unity\Prototype1\WebGL Builds\Build\WebGL Builds.framework.js.gz
+          projectPath: WebGL Builds\Build\WebGL Builds.framework.js.gz
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\Build\WebGL Builds.loader.js
+        label: WebGL Builds.loader.js
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\Build\WebGL Builds.loader.js
+          fullPath: D:\Unity\Prototype1\WebGL Builds\Build\WebGL Builds.loader.js
+          projectPath: WebGL Builds\Build\WebGL Builds.loader.js
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\Build\WebGL Builds.wasm.gz
+        label: WebGL Builds.wasm.gz
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\Build\WebGL Builds.wasm.gz
+          fullPath: D:\Unity\Prototype1\WebGL Builds\Build\WebGL Builds.wasm.gz
+          projectPath: WebGL Builds\Build\WebGL Builds.wasm.gz
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\dependencies.txt
+        label: dependencies.txt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\dependencies.txt
+          fullPath: D:\Unity\Prototype1\WebGL Builds\dependencies.txt
+          projectPath: WebGL Builds\dependencies.txt
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\GUID.txt
+        label: GUID.txt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\GUID.txt
+          fullPath: D:\Unity\Prototype1\WebGL Builds\GUID.txt
+          projectPath: WebGL Builds\GUID.txt
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\index.html
+        label: index.html
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\index.html
+          fullPath: D:\Unity\Prototype1\WebGL Builds\index.html
+          projectPath: WebGL Builds\index.html
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\ProjectVersion.txt
+        label: ProjectVersion.txt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\ProjectVersion.txt
+          fullPath: D:\Unity\Prototype1\WebGL Builds\ProjectVersion.txt
+          projectPath: WebGL Builds\ProjectVersion.txt
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\TemplateData
+        label: TemplateData
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: WebGL Builds\TemplateData\favicon.ico
+        label: favicon.ico
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\TemplateData\favicon.ico
+          fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\favicon.ico
+          projectPath: WebGL Builds\TemplateData\favicon.ico
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\TemplateData\fullscreen-button.png
+        label: fullscreen-button.png
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\TemplateData\fullscreen-button.png
+          fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\fullscreen-button.png
+          projectPath: WebGL Builds\TemplateData\fullscreen-button.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\TemplateData\MemoryProfiler.png
+        label: MemoryProfiler.png
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\TemplateData\MemoryProfiler.png
+          fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\MemoryProfiler.png
+          projectPath: WebGL Builds\TemplateData\MemoryProfiler.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\TemplateData\progress-bar-empty-dark.png
+        label: progress-bar-empty-dark.png
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\TemplateData\progress-bar-empty-dark.png
+          fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\progress-bar-empty-dark.png
+          projectPath: WebGL Builds\TemplateData\progress-bar-empty-dark.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\TemplateData\progress-bar-empty-light.png
+        label: progress-bar-empty-light.png
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\TemplateData\progress-bar-empty-light.png
+          fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\progress-bar-empty-light.png
+          projectPath: WebGL Builds\TemplateData\progress-bar-empty-light.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\TemplateData\progress-bar-full-dark.png
+        label: progress-bar-full-dark.png
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\TemplateData\progress-bar-full-dark.png
+          fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\progress-bar-full-dark.png
+          projectPath: WebGL Builds\TemplateData\progress-bar-full-dark.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\TemplateData\progress-bar-full-light.png
+        label: progress-bar-full-light.png
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\TemplateData\progress-bar-full-light.png
+          fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\progress-bar-full-light.png
+          projectPath: WebGL Builds\TemplateData\progress-bar-full-light.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\TemplateData\style.css
+        label: style.css
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\TemplateData\style.css
+          fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\style.css
+          projectPath: WebGL Builds\TemplateData\style.css
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\TemplateData\unity-logo-dark.png
+        label: unity-logo-dark.png
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\TemplateData\unity-logo-dark.png
+          fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\unity-logo-dark.png
+          projectPath: WebGL Builds\TemplateData\unity-logo-dark.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\TemplateData\unity-logo-light.png
+        label: unity-logo-light.png
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\TemplateData\unity-logo-light.png
+          fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\unity-logo-light.png
+          projectPath: WebGL Builds\TemplateData\unity-logo-light.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\TemplateData\webgl-logo.png
+        label: webgl-logo.png
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\TemplateData\webgl-logo.png
+          fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\webgl-logo.png
+          projectPath: WebGL Builds\TemplateData\webgl-logo.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: WebGL Builds\TemplateData\webmemd-icon.png
+        label: webmemd-icon.png
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: WebGL Builds\TemplateData\webmemd-icon.png
+          fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\webmemd-icon.png
+          projectPath: WebGL Builds\TemplateData\webmemd-icon.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: webgl_sharing
+        label: webgl_sharing
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: webgl_sharing
+          fullPath: D:\Unity\Prototype1\webgl_sharing
+          projectPath: webgl_sharing
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       selectedNode:
         path: 
         label: 
@@ -731,27 +1311,171 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: Assets\Scenes\Prototype 1.unity
-      fullPath: D:\Unity\Prototype1\Assets\Scenes\Prototype 1.unity
-      projectPath: Assets\Scenes\Prototype 1.unity
+    - path: connectwebgl.zip
+      fullPath: D:\Unity\Prototype1\connectwebgl.zip
+      projectPath: connectwebgl.zip
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: debug.log
+      fullPath: D:\Unity\Prototype1\debug.log
+      projectPath: debug.log
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: D:\Unity\Prototype1\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
+    - path: ProjectSettings\Packages\com.unity.connect.share\Settings.json
+      fullPath: D:\Unity\Prototype1\ProjectSettings\Packages\com.unity.connect.share\Settings.json
+      projectPath: ProjectSettings\Packages\com.unity.connect.share\Settings.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
     - path: UserSettings\Layouts\default-2022.dwlt
       fullPath: D:\Unity\Prototype1\UserSettings\Layouts\default-2022.dwlt
       projectPath: UserSettings\Layouts\default-2022.dwlt
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    changedFilesText: 2 changed files
+    - path: WebGL Builds\Build\WebGL Builds.data.gz
+      fullPath: D:\Unity\Prototype1\WebGL Builds\Build\WebGL Builds.data.gz
+      projectPath: WebGL Builds\Build\WebGL Builds.data.gz
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\Build\WebGL Builds.framework.js.gz
+      fullPath: D:\Unity\Prototype1\WebGL Builds\Build\WebGL Builds.framework.js.gz
+      projectPath: WebGL Builds\Build\WebGL Builds.framework.js.gz
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\Build\WebGL Builds.loader.js
+      fullPath: D:\Unity\Prototype1\WebGL Builds\Build\WebGL Builds.loader.js
+      projectPath: WebGL Builds\Build\WebGL Builds.loader.js
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\Build\WebGL Builds.wasm.gz
+      fullPath: D:\Unity\Prototype1\WebGL Builds\Build\WebGL Builds.wasm.gz
+      projectPath: WebGL Builds\Build\WebGL Builds.wasm.gz
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\dependencies.txt
+      fullPath: D:\Unity\Prototype1\WebGL Builds\dependencies.txt
+      projectPath: WebGL Builds\dependencies.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\GUID.txt
+      fullPath: D:\Unity\Prototype1\WebGL Builds\GUID.txt
+      projectPath: WebGL Builds\GUID.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\index.html
+      fullPath: D:\Unity\Prototype1\WebGL Builds\index.html
+      projectPath: WebGL Builds\index.html
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\ProjectVersion.txt
+      fullPath: D:\Unity\Prototype1\WebGL Builds\ProjectVersion.txt
+      projectPath: WebGL Builds\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\TemplateData\favicon.ico
+      fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\favicon.ico
+      projectPath: WebGL Builds\TemplateData\favicon.ico
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\TemplateData\fullscreen-button.png
+      fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\fullscreen-button.png
+      projectPath: WebGL Builds\TemplateData\fullscreen-button.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\TemplateData\MemoryProfiler.png
+      fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\MemoryProfiler.png
+      projectPath: WebGL Builds\TemplateData\MemoryProfiler.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\TemplateData\progress-bar-empty-dark.png
+      fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\progress-bar-empty-dark.png
+      projectPath: WebGL Builds\TemplateData\progress-bar-empty-dark.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\TemplateData\progress-bar-empty-light.png
+      fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\progress-bar-empty-light.png
+      projectPath: WebGL Builds\TemplateData\progress-bar-empty-light.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\TemplateData\progress-bar-full-dark.png
+      fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\progress-bar-full-dark.png
+      projectPath: WebGL Builds\TemplateData\progress-bar-full-dark.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\TemplateData\progress-bar-full-light.png
+      fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\progress-bar-full-light.png
+      projectPath: WebGL Builds\TemplateData\progress-bar-full-light.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\TemplateData\style.css
+      fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\style.css
+      projectPath: WebGL Builds\TemplateData\style.css
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\TemplateData\unity-logo-dark.png
+      fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\unity-logo-dark.png
+      projectPath: WebGL Builds\TemplateData\unity-logo-dark.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\TemplateData\unity-logo-light.png
+      fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\unity-logo-light.png
+      projectPath: WebGL Builds\TemplateData\unity-logo-light.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\TemplateData\webgl-logo.png
+      fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\webgl-logo.png
+      projectPath: WebGL Builds\TemplateData\webgl-logo.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: WebGL Builds\TemplateData\webmemd-icon.png
+      fullPath: D:\Unity\Prototype1\WebGL Builds\TemplateData\webmemd-icon.png
+      projectPath: WebGL Builds\TemplateData\webmemd-icon.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: webgl_sharing
+      fullPath: D:\Unity\Prototype1\webgl_sharing
+      projectPath: webgl_sharing
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    changedFilesText: 26 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-12-22T06:47:53.439+01:00
+      updatedTimeString: 2024-01-09T13:05:29.316+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-12-22T06:47:53.764+01:00
+      updatedTimeString: 2024-01-09T13:05:29.508+01:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-12-22T06:47:55.225+01:00
+      updatedTimeString: 2024-01-09T13:05:30.750+01:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -2718,7 +3442,7 @@ MonoBehaviour:
   currentRemoteName: origin
   currentBranch: main
   currentRemoteUrl: https://github.com/Lurius-Kitsune/CertifUnity-Prof-Prototype1
-  statusAhead: 1
+  statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
@@ -2731,13 +3455,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-12-18T11:00:06.053+01:00
+    updatedTimeString: 2024-01-09T13:05:29.316+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-12-18T11:00:06.325+01:00
+    updatedTimeString: 2024-01-09T13:05:29.519+01:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-12-18T11:04:13.613+01:00
+    updatedTimeString: 2024-01-09T13:05:29.508+01:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -2760,7 +3484,7 @@ MonoBehaviour:
   appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2780,7 +3504,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1455
+    x: 3375
     y: 73
     width: 464
     height: 966
@@ -2797,7 +3521,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: -160
+    m_CachedPref: 296
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -2807,7 +3531,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2827,10 +3551,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1069
-    y: 507
-    width: 384
-    height: 532
+    x: 1068
+    y: 508
+    width: 385
+    height: 531
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2868,7 +3592,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 405c0000
     m_LastClickedID: 23616
-    m_ExpandedIDs: 00000000e85c0000ea5c0000ec5c0000ee5c0000f05c0000f25c0000
+    m_ExpandedIDs: 00000000da5f0000dc5f0000de5f0000e05f0000e25f0000e45f0000e65f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2896,7 +3620,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000e85c0000ea5c0000ec5c0000ee5c0000f05c0000f25c0000
+    m_ExpandedIDs: ffffffff00000000da5f0000dc5f0000de5f0000e05f0000e25f0000e45f0000e65f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2952,7 +3676,7 @@ MonoBehaviour:
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2973,9 +3697,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 587
-    width: 1068
-    height: 452
+    y: 561
+    width: 1067
+    height: 478
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2992,7 +3716,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1068, y: 431}
+  m_TargetSize: {x: 1067, y: 457}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -3007,10 +3731,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -534
-    m_HBaseRangeMax: 534
-    m_VBaseRangeMin: -215.5
-    m_VBaseRangeMax: 215.5
+    m_HBaseRangeMin: -533.5
+    m_HBaseRangeMax: 533.5
+    m_VBaseRangeMin: -228.5
+    m_VBaseRangeMax: 228.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -3028,29 +3752,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1068
-      height: 431
+      width: 1067
+      height: 457
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 534, y: 215.5}
+    m_Translation: {x: 533.5, y: 228.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -534
-      y: -215.5
-      width: 1068
-      height: 431
+      x: -533.5
+      y: -228.5
+      width: 1067
+      height: 457
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1068, y: 452}
+  m_LastWindowPixelSize: {x: 1067, y: 478}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3072,8 +3796,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 1068
-    height: 493
+    width: 1067
+    height: 467
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3166,7 +3890,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 67.5, y: 86}
+      snapOffset: {x: 67.5, y: 5}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Orientation
@@ -3380,9 +4104,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 14.916393, y: 0.5153603, z: 29.106304}
+    m_Target: {x: 17.726217, y: -1.0284495, z: 75.51969}
     speed: 2
-    m_Value: {x: 14.916393, y: 0.5153603, z: 29.106304}
+    m_Value: {x: 17.726217, y: -1.0284495, z: 75.51969}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -3428,13 +4152,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.1561782, y: 0.46285218, z: -0.08321348, w: -0.86861223}
+    m_Target: {x: -0.10397752, y: -0.06649654, z: 0.0069694277, w: -0.99236345}
     speed: 2
-    m_Value: {x: -0.1561782, y: 0.4628522, z: -0.08321348, w: -0.86861223}
+    m_Value: {x: -0.103974044, y: -0.06649432, z: 0.006969195, w: -0.9923303}
   m_Size:
-    m_Target: 21.133766
+    m_Target: 48.401535
     speed: 2
-    m_Value: 21.133766
+    m_Value: 48.401535
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -3459,7 +4183,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3479,10 +4203,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1069
+    x: 1068
     y: 73
-    width: 384
-    height: 413
+    width: 385
+    height: 414
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
